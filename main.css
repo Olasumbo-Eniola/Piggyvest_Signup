@@ -121,10 +121,10 @@ select{
 .dropdown:hover{
   background-color: rgb(195, 214, 221);
 }
-@media only screen and(max-width: 620px) {
+@media only screen and(max-width: 70px) {
   body{
       width: 100%;
-      padding: 327 803;
+      margin: 0;
   }
   
 }
