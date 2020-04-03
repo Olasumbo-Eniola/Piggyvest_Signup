@@ -45,6 +45,7 @@ a{
     font-size: 12px;
     padding-bottom: 50px;
     padding-top: 30px;
+    height: 40px;
 }
 
 
@@ -80,7 +81,7 @@ a{
 .btn{
   margin-bottom: 15%;
   width: 90%;
-  background-color: darkblue;
+  background-color: rgb(4, 4, 173);
   color: white;
   height: 50px;
   text-transform: capitalize;
@@ -88,6 +89,9 @@ a{
   font: 2em ;
   border-radius: 17px 17px 17px 2px;
   border: none;
+}
+.btn:hover{
+  background-color: navy;
 }
 select{
   display: block;
