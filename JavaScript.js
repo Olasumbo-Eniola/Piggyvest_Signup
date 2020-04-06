@@ -5,14 +5,13 @@ let data = [
     {principal: 2000, time: 3}
     ];
     function interestCalculator(data){
-        
     let interestData=[];
-    for (let x = 0; x < data.length; x++) {
+    for (let i = 0; i < data.length; i++) {
     let interest = '';
     let rate = 0;
     let myInterest = {};
-    let principal = data[x].principal;
-    let time = data[x].time;
+    let principal = data[i].principal;
+    let time = data[i].time;
     if(principal >= 2500 && time > 1 && time <= 3){
     rate = 3;
     interest = (principal * rate * time) / 100;
@@ -58,5 +57,4 @@ let data = [
     console.log(interestData);
     return interestData;
     }
-
     interestCalculator(data);
