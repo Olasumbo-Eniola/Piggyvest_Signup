@@ -28,15 +28,23 @@
         <label for="RPPC" style="margin-right: 43%;"><b>Referrer Phone or Promo Code</b></label>
         <input type="text" placeholder="Refferer phone or code" class="text">
         <label for="How" style="margin-right: 33%;"><b>How Did you Hear About Us?(Optional) </b></label>
-        <select id="choose">
-            <option disabled selected value class="dropdown" style="background-color: blue;">Click to select</option>
-            <option class="dropdown">Facebook</option>
-            <option class="dropdown">Twitter</option>
-            <option class="dropdown">Instagram</option>
-            <option class="dropdown">Friend/Family/Coworker referral</option>
-            <option class="dropdown">Google Search</option>
-            <option class="dropdown">Google Play Store</option>
-        </select><br>
+        <span class="datalist-arrow">
+            <input list="select" name="select" placeholder="Click to select">
+            <datalist id="select" style="overflow: scroll; position: absolute; visibility: hidden;
+            white-space: pre; ">
+              <option value="Facebook"></option>
+              <option value="Instagram"></option>
+              <option value="Twitter"></option>
+              <option value="Friend/Family/Coworker Referral"></option>
+              <option value="Google Search"></option>
+                  <option value="Google Playstore"></option>
+                    <option value="Online Blog"></option>
+                        <option value="Local Newspaper"></option>
+                        <option value="At an Event"></option>
+                            <option value="Other"></option>
+            </datalist>
+            </span>
+        
         <button type="submit" class="btn">Create Account</button>
         </form>
        </div>
